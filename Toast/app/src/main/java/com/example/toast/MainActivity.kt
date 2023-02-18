@@ -15,5 +15,9 @@ class MainActivity : AppCompatActivity() {
         btnUp.setOnClickListener {
             Toast.makeText(applicationContext,"Uploading",Toast.LENGTH_LONG).show()
         }
+
+        btnDn.setOnClickListener {
+            Toast.makeText(applicationContext,"Downloading",Toast.LENGTH_SHORT).show()
+        }
     }
 }
