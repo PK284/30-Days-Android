@@ -17,7 +17,8 @@ class MainActivity : AppCompatActivity() {
 
         btn.setOnClickListener{
             Toast.makeText(applicationContext, "Ok", Toast.LENGTH_SHORT).show()
-            intent = Intent(applicationContext,)
+            intent = Intent(applicationContext,Page2::class.java)
+            startActivity(intent)
         }
     }
 }
